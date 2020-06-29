@@ -1,0 +1,106 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500&display=swap');
+
+body{
+	font-family: 'Roboto', sans-serif;
+	font-size: 16px;
+}
+
+.color-naranja{
+	color: #A87015;
+	font-weight: 600;
+}
+
+header h2{
+	color: #fff;
+}
+
+header{
+	background-color: #000;
+	padding: 20px 0;
+	position: absolute;
+	width: 100%;
+	z-index: 9999999;
+}
+
+#enlaces{
+	padding: 150px;
+}
+
+#about-me h2{
+	color: #fff;
+}
+
+#about-me h3{
+	color: #fff;
+}
+
+#about-me p{
+	color: #fff;
+	padding-top: 30px;
+}
+
+#about-me{
+	padding: 150px;
+	background-color: #000;
+}
+
+#portafolio{
+	padding: 150px;
+	align-content: center;
+}
+
+#portafolio i{
+	font-size: 40px;
+	align-content: center;
+}
+
+.circulo{
+	width: 100px;
+	height: 100px;
+	border-radius: 100%;
+	line-height: 100px;
+	/*border: 1px solid #ddd;*/
+	display: block;
+	margin: auto;
+	margin-bottom: 20px;
+	box-shadow: 0px 0px 15px 0px #ddd;
+	font-size: 40px;
+	color: #2E73E8;
+}
+
+.circulo:hover{
+	box-shadow: 0px 0px 5px 0px #ddd;
+}
+
+#servicios{
+	background-color: #000;
+}
+
+#servicios h4{
+	color: #fff;
+}
+
+#servicios p{
+	color: #fff;
+}
+
+#servicios .carousel-item{
+	height: 1000px; 
+}
+
+#slides .carousel-caption{
+	display: grid;
+	align-items: center;
+	align-content: center;
+	height: 100%;
+}
+
+#contacto{
+	padding-top: 20px;
+}
+
+footer{
+	background-color: #000;
+	color: #fff;
+	padding: 30px;
+}
